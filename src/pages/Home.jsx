@@ -290,30 +290,9 @@ const Home = () => {
               </Col>
             ))}
           </Row>
-        </Container>
-      </section>
-
-      <section>
-        <Container>
-          <Row>
-            <Col lg="6" md="6">
-              <div className="testimonial ">
-                <h5 className="testimonial__subtitle mb-4">Testimonial</h5>
-                <h2 className="testimonial__title mb-4">
-                  What our <span>customers</span> are saying
-                </h2>
-
-                <TestimonialSlider />
-              </div>
-            </Col>
-
-            <Col lg="6" md="6">
-              <img src={networkImg} alt="testimonial-img" className="w-100 rounded" />
-            </Col>
-          </Row>
-        </Container>
-      </section>
-    </Helmet>
+        </Container>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+      </section>                                                                                                                                                                                            
+    </Helmet>                                                                                                                                                                                                                                                                                       
   );
 };
 
